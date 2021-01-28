@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends | Kokoa Clone</title>
   </head>
   <body>
     <!-- status bar는 하나뿐 -->
-    <div class="status-bar"> 
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -47,7 +47,9 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Seungsoo</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <!-- <div class="user-component__subtitle-box">
+              <h6 class="user-component__subtitle">this text whatever</h6>
+            </div> -->
           </div>
         </div>
         <!-- 두번째 컬럼은 대화갯수 등 우측에 치우친 부분에 사용 -->
@@ -65,7 +67,9 @@
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
             </div>
           </div>
           <div class="user-component__column">
@@ -79,30 +83,35 @@
     </main>
 
     <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__btn">
-            <a class="nav__link" href="friends.html"
-              ><i class="fas fa-user fa-2x"></i
-            ></a>
-          </li>
-          <li class="nav__btn">
-            <a class="nav__link" href="chats.html">
-              <span class="nav__notification badge">1</span>
-              <i class="far fa-comment fa-2x"></i>
-            </a>
-          </li>
-          <li class="nav__btn">
-            <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
-          </li>
-          <li class="nav__btn">
-            <a class="nav__link" href="more.html">
-              <span class="nav__dot"></span>
-              <i class="fas fa-ellipsis-h fa-2x"></i>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-    <script src="https://kit.fontawesome.com/644cec5656.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/644cec5656.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
