@@ -56,7 +56,7 @@
 }
 
 .open-post:not(:last-child) {
-  border-bottom: 1px solid var(--grey);
+  border-bottom: var(--main-border);
 }
 
 .open-post__title {
